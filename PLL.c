@@ -7,7 +7,7 @@
 
 #include "lib/include.h"
 
-extern void Configurar_PLL(void)
+extern void Configurar_PLL(uint16_t reloj)
 {
     // 1. Configure high-freq oscillator, power to main oscillator, and use external oscillator
     //    by setting SYSCTL_MOSCCTL register
